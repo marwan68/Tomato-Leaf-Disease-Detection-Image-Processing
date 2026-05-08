@@ -60,3 +60,17 @@ Edge Detection
 Contour Detection
         ↓
 Final Output
+
+
+
+
+## Sample Results
+
+### Preprocessing Result
+![Preprocessing Result](screenshots/01_preprocessing_result.png)
+
+### Filtering Result
+![Filtering Result](screenshots/02_filtering_result.png)
+
+### Segmentation and Edge Detection Result
+![Segmentation Result](screenshots/03_segmentation_edge_result.png)
