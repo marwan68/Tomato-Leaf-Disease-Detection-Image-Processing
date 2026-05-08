@@ -29,7 +29,7 @@ The dataset contains tomato leaf images organized into two categories:
 - Healthy_Tomato
 - Diseased_Tomato
 
-Duplicate, blurry, corrupted, and unclear images were removed manually before processing.
+Link : https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf
 
 ## Methodology
 
