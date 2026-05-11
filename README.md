@@ -108,39 +108,3 @@ In the segmentation stage, the leaf region was separated from the background. Th
 ### Segmentation and Edge Detection Result
 
 <img src="screenshots/03_segmentation_edge_result.png" width="700">
-
-## Sample Final Outputs
-
-Sample final output images are included in the `sample_outputs` folder.
-
-### Final Output 1
-
-<img src="sample_outputs/final_output_01.jpg" width="500">
-
-### Final Output 2
-
-<img src="sample_outputs/final_output_02.jpg" width="500">
-
-### Final Output 3
-
-<img src="sample_outputs/final_output_03.jpg" width="500">
-
-## Folder Structure
-
-```text
-Tomato-Leaf-Disease-Detection-Image-Processing/
-│
-├── README.md
-├── Tomato_Leaf_Disease_Detection_Image_Processing.ipynb
-│
-├── screenshots/
-│   ├── 00_dataset_samples.png
-│   ├── 01_preprocessing_result.png
-│   ├── 02_filtering_result.png
-│   └── 03_segmentation_edge_result.png
-│
-└── sample_outputs/
-    ├── final_output_01.jpg
-    ├── final_output_02.jpg
-    └── final_output_03.jpg
-```
