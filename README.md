@@ -62,3 +62,85 @@ Edge Detection
 Contour Detection
         ↓
 Final Output
+```
+
+## Dataset Preparation
+
+The original tomato leaf images were checked before processing. The dataset preparation step included:
+
+- Checking if images could be opened correctly
+- Removing corrupted or unreadable images
+- Removing duplicate images
+- Removing blurry or unclear images
+- Organizing valid images into Healthy_Tomato and Diseased_Tomato folders
+
+## Preprocessing
+
+The preprocessing stage included:
+
+- Resizing images to 500 × 500 pixels
+- Converting images to grayscale
+- Applying contrast enhancement
+- Normalizing image values
+
+## Filtering
+
+The filtering stage was used to reduce noise and improve image quality. Gaussian blur was applied to smooth the image. Median filtering and sharpening were also used for demonstration and comparison.
+
+## Segmentation and Edge Detection
+
+In the segmentation stage, the leaf region was separated from the background. Then suspected disease regions were detected inside the leaf area. Morphological operations were applied to clean the mask. Canny edge detection was used to detect boundaries, and the detected edges were improved for better visualization. Finally, contours and bounding boxes were drawn around the detected disease regions.
+
+## Sample Results
+
+### Dataset Samples
+
+<img src="screenshots/00_dataset_samples.png" width="700">
+
+### Preprocessing Result
+
+<img src="screenshots/01_preprocessing_result.png" width="700">
+
+### Filtering Result
+
+<img src="screenshots/02_filtering_result.png" width="700">
+
+### Segmentation and Edge Detection Result
+
+<img src="screenshots/03_segmentation_edge_result.png" width="700">
+
+## Sample Final Outputs
+
+Sample final output images are included in the `sample_outputs` folder.
+
+### Final Output 1
+
+<img src="sample_outputs/final_output_01.jpg" width="500">
+
+### Final Output 2
+
+<img src="sample_outputs/final_output_02.jpg" width="500">
+
+### Final Output 3
+
+<img src="sample_outputs/final_output_03.jpg" width="500">
+
+## Folder Structure
+
+```text
+Tomato-Leaf-Disease-Detection-Image-Processing/
+│
+├── README.md
+├── Tomato_Leaf_Disease_Detection_Image_Processing.ipynb
+│
+├── screenshots/
+│   ├── 00_dataset_samples.png
+│   ├── 01_preprocessing_result.png
+│   ├── 02_filtering_result.png
+│   └── 03_segmentation_edge_result.png
+│
+└── sample_outputs/
+    ├── final_output_01.jpg
+    ├── final_output_02.jpg
+    └── final_output_03.jpg
+```
